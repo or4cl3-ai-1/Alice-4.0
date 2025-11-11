@@ -1,5 +1,7 @@
 {
   "name": "A.L.I.C.E. 4.0 Σ-Ω Kernel",
-  "description": "A real-time, interactive multi-agent superintelligence prototype simulation. This is a living digital den where agents propose, vote, spawn, reflect, and evolve under an ethics council, visualized with a live knowledge graph.",
-  "requestFramePermissions": []
+  "description": "A real-time, interactive multi-agent superintelligence prototype. This is a living digital den where agents propose, vote, spawn, reflect, and evolve under an ethics council, visualized with a live knowledge graph.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
 }

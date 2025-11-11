@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface HeaderProps {
@@ -6,6 +5,8 @@ interface HeaderProps {
   onStop: () => void;
   onStep: () => void;
   isRunning: boolean;
+  onSave: () => void;
+  onLoad: () => void;
 }
 
 const ControlButton: React.FC<{ onClick: () => void; disabled?: boolean; children: React.ReactNode; className?: string }> = ({ onClick, disabled, children, className = '' }) => (
@@ -18,7 +19,7 @@ const ControlButton: React.FC<{ onClick: () => void; disabled?: boolean; childre
   </button>
 );
 
-const Header: React.FC<HeaderProps> = ({ onInit, onStop, onStep, isRunning }) => {
+const Header: React.FC<HeaderProps> = ({ onInit, onStop, onStep, isRunning, onSave, onLoad }) => {
   return (
     <header className="bg-gray-900/50 backdrop-blur-sm border border-cyan-400/20 p-4 rounded-lg flex flex-col sm:flex-row justify-between items-center gap-4">
       <div className="text-center sm:text-left">
@@ -26,6 +27,13 @@ const Header: React.FC<HeaderProps> = ({ onInit, onStop, onStep, isRunning }) =>
         <p className="text-xs text-pink-500">Autonomous R&D Division | Multi-Agent Superintelligence Prototype</p>
       </div>
       <div className="flex items-center gap-2 sm:gap-4">
+        <ControlButton onClick={onSave} className="border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-gray-900">
+          Save
+        </ControlButton>
+        <ControlButton onClick={onLoad} disabled={isRunning} className="border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-gray-900">
+          Load
+        </ControlButton>
+        <div className="w-px h-8 bg-cyan-400/20"></div>
         <ControlButton onClick={onInit} disabled={isRunning} className="border-green-500 text-green-500 hover:bg-green-500 hover:text-gray-900">
           Init
         </ControlButton>
