@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🤖 A.L.I.C.E. 4.0
-### *The First Self-Governing AI Collective That Thinks, Votes, and Evolves in Real Time*
+### *A Self-Governing AI Collective That Thinks, Votes, and Evolves in Real Time*
 
 [![Or4cl3](https://img.shields.io/badge/Or4cl3%20AI%20Solutions-Research%20First-blueviolet?style=for-the-badge&logo=github)](https://github.com/or4cl3-ai-1)
 [![License](https://img.shields.io/badge/License-Free%20for%20Education-success?style=for-the-badge)](https://github.com/or4cl3-ai-1)
@@ -16,11 +16,11 @@
 
 ## 🧠 What Is A.L.I.C.E. 4.0?
 
-A.L.I.C.E. 4.0 is a real-time, interactive **multi-agent superintelligence prototype** built around the Σ-Ω Kernel—a collective identity that evolves with every simulation tick. Researchers, Engineers, Analysts, Ethicists, and more populate the colony, each with AI-generated avatars and Pro-sociality Alignment Scores (PAS) that determine their influence on the group.
+A.L.I.C.E. 4.0 is a real-time, interactive **multi-agent AI governance prototype** built around the Σ-Ω Kernel—a collective identity that evolves with every simulation tick. Researchers, Engineers, Analysts, Ethicists, and more populate the colony, each with AI-generated avatars and Pro-sociality Alignment Scores (PAS) that determine their influence on the group.
 
 Agents don't just respond—they *propose* the creation of new agents, and the collective *votes* on whether to accept. Ethicists can amend core kernel policies. Analysts surface threats and opportunities in real time. The system evolves. The Σ-Ω Identity—a hash of the colony's live state—changes continuously, symbolizing that no two moments of A.L.I.C.E. are ever the same.
 
-This is superintelligence governance made tangible, auditable, and beautiful.
+This is multi-agent AI governance made tangible, auditable, and beautiful.
 
 ## ✨ Key Features
 
