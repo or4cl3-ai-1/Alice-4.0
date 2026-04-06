@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { Network } from 'vis-network/standalone/esm/vis-network';
+import { Network } from 'vis-network/standalone';
 import { GraphData, CommunicationEvent } from '../types';
-import { Options } from 'vis-network';
+import type { Options } from 'vis-network/standalone';
 import * as d3 from 'd3';
 
 interface GraphPanelProps {
